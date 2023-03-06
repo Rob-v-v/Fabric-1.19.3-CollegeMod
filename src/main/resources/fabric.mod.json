@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "collegemod",
+	"version": "${version}",
+	"name": "CollegeMod",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/collegemod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"collegemod.modid.CollegeMod"
+		],
+		"client": [
+			"collegemod.modid.CollegeModClient"
+		],
+		"fabric-datagen": [
+			"collegemod.modid.CollegeModDataGenerator"
+		]
+	},
+	"mixins": [
+		"collegemod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.14",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
