@@ -2,5 +2,6 @@
   "item.collegemod.ruby": "Ruby",
   "item.collegemod.raw_ruby": "Raw Ruby",
 
+  "block.collegemod.ruby_block": "Block of Ruby",
   "itemgroup.ruby": "Ruby Item Group"
 }

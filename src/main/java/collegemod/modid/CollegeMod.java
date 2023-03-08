@@ -1,5 +1,6 @@
 package collegemod.modid;
 
+import collegemod.modid.block.ModBlocks;
 import collegemod.modid.item.ModItemGroup;
 import collegemod.modid.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -15,5 +16,6 @@ public class CollegeMod implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroup.registerItemGroups();
 		ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
 	}
 }
