@@ -3,5 +3,8 @@
   "item.collegemod.raw_ruby": "Raw Ruby",
 
   "block.collegemod.ruby_block": "Block of Ruby",
+  "block.collegemod.ruby_ore": "Ruby Ore",
+  "block.collegemod.deepslate_rube_ore": "Deepslate Ruby Ore",
+
   "itemgroup.ruby": "Ruby Item Group"
 }
