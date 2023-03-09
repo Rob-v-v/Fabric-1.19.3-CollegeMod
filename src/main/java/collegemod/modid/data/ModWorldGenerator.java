@@ -13,7 +13,7 @@ public class ModWorldGenerator extends FabricDynamicRegistryProvider {
     }
 
     @Override
-    protected void configure(RegistryWrapper.WrapperLookup registries, wEntries entries) {
+    protected void configure(RegistryWrapper.WrapperLookup registries, Entries entries) {
         // World Gen.
     }
 
